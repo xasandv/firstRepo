@@ -1,0 +1,105 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item>a {
+    color: slategray;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main {
+    border: 1px solid red;
+    height: 50vh;
+    background-image: url('../figma/img/котейка\ \(1\)\ 1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 150px;
+}
+
+
+main>div {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+main>div>p{
+    color: rgb(57, 57, 58);
+
+}
+
+main>div>h1{
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.mainCat-btn>button{
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  height: 45px;
+}
+
+/* section-2 */
+
+.section-2{
+    height: 100vh;
+    padding: 100px 0px;
+    position: relative;
+    
+}
+
+.section-2>h1{
+    text-align: center;
+}
+
+.section-2-Card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,321px);
+    gap: 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section-2-Card>div{
+    border: 1px solid red;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cat-foot{
+     position: absolute;
+     right:  -10px;
+     top: 10px;
+     border: 1px solid red;
+}
