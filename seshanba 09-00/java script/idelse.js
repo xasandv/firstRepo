@@ -84,6 +84,8 @@ const love6 =(a,b) => {
   }
 }
 
-console.log(love6(6, 4));
-console.log(love6(4, 5) );
- console.log(love6(1, 5) );
+// console.log(love6(6, 4));
+// console.log(love6(4, 5) );
+//  console.log(love6(1, 5) );
+
+console.log('hey github');
